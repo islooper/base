@@ -2,7 +2,7 @@ package sharedconfig
 
 import (
 	"fmt"
-	"gitee.com/hzxkd/base/dao"
+	"github.com/Islooper/base/dao"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
@@ -46,7 +46,6 @@ func NewDB(conf DBConf) (*gorm.DB, error) {
 	sqlDB.SetConnMaxLifetime(time.Duration(conf.MaxLifeTime) * time.Minute)
 	return db, err
 }
-
 
 // NewDBCollection 通过一组db conf初始化db资源
 func NewDBCollection(confGroup map[string]DBConf) (dao.DBCollector, error) {

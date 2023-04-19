@@ -1,4 +1,4 @@
-module gitee.com/hzxkd/base
+module github.com/Islooper/base
 
 go 1.13
 
