@@ -3,14 +3,14 @@
 ## Install
 
 ```bash
-go get -u github.com/jefferyjob/go-easy-utils/mapUtil
+go get -u github.com/Islooper/base/mapUtil
 ```
 
 ## Import
 
 ```go
 import (
-	"github.com/jefferyjob/go-easy-utils/mapUtil"
+	"github.com/Islooper/base/mapUtil"
 )
 ```
 
